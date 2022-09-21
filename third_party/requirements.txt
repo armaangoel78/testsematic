@@ -1,0 +1,3 @@
+sematic==0.9.0
+enum34==1.1.10
+typing-extensions==4.3.0

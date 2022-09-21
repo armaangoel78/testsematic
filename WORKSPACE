@@ -27,3 +27,10 @@ git_repository(
 load("@rules_sematic//:pipeline.bzl", "base_images")
 
 base_images()
+
+load("@rules_python//python:pip.bzl", "pip_install")
+
+pip_install(
+    name = "my_python_deps",
+    requirements = "//third_party:requirements.txt",
+)
