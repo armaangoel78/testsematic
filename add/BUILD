@@ -18,8 +18,8 @@ py_library(
 
 sematic_pipeline(
     name = "main",  # the launch script of your pipeline is main.py
-    registry = "us-west1-docker.pkg.dev/gauntletsecurity",
-    repository = "repo",
+    registry = "us-west1-docker.pkg.dev/gauntletsecurity/repo",
+    repository = "app",
     deps = [
         ":add",
     ],
