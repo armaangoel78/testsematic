@@ -8,6 +8,7 @@ py_library(
     name = "add",
     srcs = [
         "add.py",
+        "main.py"
     ],
     deps = [
         requirement("sematic"),
