@@ -1,5 +1,5 @@
 import logging
-from add import pipeline
+from example.add import pipeline
 from sematic import CloudResolver
 
 if __name__ == "__main__":
