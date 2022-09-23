@@ -20,7 +20,7 @@ py_library(
 
 sematic_pipeline(
     name = "main",  # the launch script of your pipeline is main.py
-    registry = "558717131297.dkr.ecr.us-west-2.amazonaws.com",
+    registry = "us-west1-docker.pkg.dev/gauntletsecurity/repo",
     deps = [
         ":add",
     ],
